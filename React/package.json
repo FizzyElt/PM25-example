@@ -1,0 +1,47 @@
+{
+  "name": "pm25",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "@chakra-ui/transition": "^1.0.0-next.3",
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "emotion-theming": "^10.0.27",
+    "eslint-config-react-app": "^6.0.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-icons": "^3.11.0",
+    "react-scripts": "3.4.3",
+    "react-transition-group": "^4.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-react-hooks": "^4.1.2"
+  },
+  "proxy": "https://data.epa.gov.tw"
+}
